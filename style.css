@@ -1,0 +1,114 @@
+/** @imports **/
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Montserrat:wght@100;300;400;800&family=Open+Sans:wght@300&family=Roboto+Mono:wght@300&family=Roboto:wght@100;300&display=swap');
+
+/** Elements **/
+html {
+  font-size: 10px;
+  /* Setting a base font size of 10px give us easier rem calculations
+     Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth
+   */
+}
+
+body {
+  font-family: 'Segoe UI', 'Roboto', 'Roboto Mono', 'Open Sans', 'Montserrat', 'Helvetica Neue', 'Cutive Mono', Arial, sans-serif, monospace;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  text-align: center;
+  color: rgba(21, 21, 21, 0.98);
+  margin: 0;
+}
+
+h1 {
+  font-size: 4.5rem;
+  margin-bottom: 0;
+}
+
+a {
+  color: #479ca7;
+}
+a:hover {
+  color: #74638f;
+}
+
+#main {
+  margin: 40px 8px;
+  padding: 15px;
+  border-radius: 3px;
+  background: #eee;
+}
+
+#img-div {
+  background: rgba(21, 21, 21, 0.98);
+  padding: 10px;
+  margin: 0;
+}
+
+img {
+  max-width: 85%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-caption {
+  margin: 15px 0 5px 0;
+}
+
+div p {
+  font-family: 'Montserrat', 'Roboto', monospace, sans-serif;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+#heading3 {
+  font-size: 2.75rem;
+  margin: 50px 0;
+  text-align: center;
+}
+
+ul {
+  max-width: 850px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+}
+li {
+  margin: 16px 0;
+}
+
+strong {
+  font-family: 'Montserrat', 'Roboto', monospace, sans-serif;
+  font-weight: 800px;
+}
+
+blockquote {
+  font-style: italic;
+  max-width: 545px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+}
+
+#quote {
+  font-family: 'Roboto', sans-serif;
+  color: rgba(15, 15, 15, 0.8);
+}
+
+
+@media (max-width: 460px) {
+  html {
+    font-size: 5px;
+  }
+  h1 {
+    font-size: 3rem;
+    line-height: 1.2;
+  }
+  #main {
+    margin: 0;
+  }
+  #img-caption {
+    font-size: 1.4rem;
+  }
+  #heading3 {
+  font-size: 2.25rem;
+  margin: 20px 0;
+  }
+}
